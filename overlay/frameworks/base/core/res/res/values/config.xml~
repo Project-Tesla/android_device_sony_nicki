@@ -250,8 +250,17 @@
     -->
     <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
 
+<<<<<<< HEAD
+    <!-- Boolean indicating whether the wifi chipset has dual frequency band support -->
+    <bool translatable="false" name="config_wifi_dual_band_support">true</bool>
+
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+<!--
+=======
+>>>>>>> f358c95... Nicki: Updated device tree for 15.4.A.0.23 based configurations
     <bool name="config_enableTorch">true</bool>
-    
+-->    
+
     <!-- Disable lockscreen rotation by default -->
     <bool name="config_enableLockScreenRotation">true</bool>
 </resources>

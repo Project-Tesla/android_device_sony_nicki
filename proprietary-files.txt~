@@ -1,5 +1,16 @@
+<<<<<<< HEAD
+etc/firmware/wlan/prima/WCNSS_cfg.dat
+etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini
+etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
+etc/firmware/tzlibasb.flist
+etc/firmware/vidc.b02
 bin/btnvtool
 bin/efsks
+bin/gsiff_daemon
+=======
+bin/btnvtool
+bin/efsks
+>>>>>>> f358c95... Nicki: Updated device tree for 15.4.A.0.23 based configurations
 bin/hci_qcomm_init
 bin/irsc_util
 bin/ks
@@ -20,6 +31,22 @@ bin/updatemiscta
 etc/firmware/cyttsp_8064_mtp.hex
 etc/firmware/cyttsp_8960_cdp.hex
 etc/firmware/dxhdcp2.b00
+<<<<<<< HEAD
+etc/firmware/dxhdcp2.b01
+etc/firmware/dxhdcp2.b02
+etc/firmware/dxhdcp2.b03
+etc/firmware/dxhdcp2.flist
+etc/firmware/dxhdcp2.mdt
+etc/firmware/tzlibasb.b00
+etc/firmware/tzlibasb.b01
+etc/firmware/tzlibasb.b02
+etc/firmware/vidc_1080p.fw
+etc/firmware/tzsuntory.mdt
+etc/firmware/tzsuntory.b02
+etc/firmware/tzlibasb.b00
+etc/firmware/dxhdcp2.mdt
+=======
+>>>>>>> f358c95... Nicki: Updated device tree for 15.4.A.0.23 based configurations
 etc/firmware/dxhdcp2.b01
 etc/firmware/dxhdcp2.b02
 etc/firmware/dxhdcp2.b03
@@ -83,6 +110,19 @@ lib/libimage-jpeg-enc-omx-comp.so
 lib/libimage-omx-common.so
 lib/libkeyctrl.so
 lib/liblights-core.so
+<<<<<<< HEAD
+lib/libloc_api_v02.so
+lib/libloc_ds_api.so
+lib/libmercury.so
+lib/libmiscta.so
+lib/libmm-abl.so
+lib/libmm-audio-resampler.so
+lib/libmmcamera_3a_legacy.so
+lib/libmmcamera_faceproc.so
+lib/libmm-audio-resampler.so
+lib/libmm-abl.so
+=======
+>>>>>>> f358c95... Nicki: Updated device tree for 15.4.A.0.23 based configurations
 lib/libloc_api_v02.so
 lib/libmercury.so
 lib/libmiscta.so
@@ -131,18 +171,39 @@ lib/libqmi_csvt_srvc.so
 lib/libqmiservices.so
 lib/libqmi.so
 lib/libQSEEComAPI.so
+<<<<<<< HEAD
+lib/libdrmdiag.so
+lib/libril-qcril-hook-oem.so
+lib/libril.so
+lib/librmp.so
+lib/libsensor1.so
+=======
 lib/libril-qc-qmi-1.so
 lib/libril-qcril-hook-oem.so
 lib/libril.so
 lib/librmp.so
+>>>>>>> f358c95... Nicki: Updated device tree for 15.4.A.0.23 based configurations
 lib/libSHIMDivxDrm.so
 lib/libsurround_proc.so
 lib/libta.so
 lib/libtzplayready.so
 vendor/firmware/libpn544_fw.so
 vendor/lib/libdiag.so
+<<<<<<< HEAD
+vendor/lib/libgeofence.so
+vendor/lib/libizat_core.so
+vendor/lib/liblbs_core.so
+vendor/lib/liblocationservice.so
+=======
+>>>>>>> f358c95... Nicki: Updated device tree for 15.4.A.0.23 based configurations
 vendor/lib/libqmi_cci.so
 vendor/lib/libqmi_common_so.so
 vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_encdec.so
+<<<<<<< HEAD
+vendor/lib/libquipc_os_api.so
 vendor/lib/libtime_genoff.so
+vendor/lib/libulp2.so
+=======
+vendor/lib/libtime_genoff.so
+>>>>>>> f358c95... Nicki: Updated device tree for 15.4.A.0.23 based configurations
