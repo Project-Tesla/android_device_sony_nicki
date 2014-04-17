@@ -116,6 +116,8 @@ BOARD_USES_QCOM_PERF_LIBS := true
 # Override healthd HAL
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.qcom
 
+TARGET_POWERHAL_VARIANT := qcom
+
 BOARD_SEPOLICY_DIRS += \
     device/sony/nicki/sepolicy
 
