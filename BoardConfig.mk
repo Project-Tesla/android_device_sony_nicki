@@ -14,6 +14,8 @@
 
 # Product-specific compile-time definitions.
 
+BOARD_EGL_CFG := device/sony/nicki/rootdir/system/lib/egl/egl.cfg
+
 include vendor/sony/nicki/BoardConfigVendor.mk
 
 # inherit from Sony common
