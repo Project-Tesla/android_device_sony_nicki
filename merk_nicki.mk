@@ -14,13 +14,13 @@
 # limitations under the License.
 
 # Inherit CM common GSM stuff.
-$(call inherit-product, vendor/slim/config/gsm.mk)
+$(call inherit-product, vendor/merk/config/gsm.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/merk/config/nfc_enhanced.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
+$(call inherit-product, vendor/merk/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/sony/nicki/nicki.mk)
@@ -30,7 +30,7 @@ TARGET_SCREEN_WIDTH := 480
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := nicki
-PRODUCT_NAME := slim_nicki
+PRODUCT_NAME := merk_nicki
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := C1905
 PRODUCT_MANUFACTURER := Sony
